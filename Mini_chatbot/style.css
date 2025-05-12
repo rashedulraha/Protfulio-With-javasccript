@@ -1,0 +1,81 @@
+/* Base font size for rem calculations */
+html {
+  font-size: 0.966rem;
+}
+.mini-chat {
+  font-size: 2rem;
+  text-align: center;
+  color: rebeccapurple;
+}
+input {
+  border: 0.1rem solid rebeccapurple;
+  outline: none;
+  border-radius: 0.2rem;
+  -webkit-border-radius: 0.2rem;
+  -moz-border-radius: 0.2rem;
+  -ms-border-radius: 0.2rem;
+  -o-border-radius: 0.2rem;
+}
+textarea {
+  border: 0.1rem solid rebeccapurple;
+}
+.btn-and-typing {
+  display: flex;
+  justify-content: space-between;
+}
+.btn-and-typing button {
+  border: 0.1rem solid rebeccapurple;
+  border-radius: 0.2rem;
+  -webkit-border-radius: 0.2rem;
+  -moz-border-radius: 0.2rem;
+  -ms-border-radius: 0.2rem;
+  -o-border-radius: 0.2rem;
+}
+body {
+  font-family: Arial, sans-serif;
+  max-width: 37.5rem; /* 600px */
+  margin: 0 auto;
+  padding: 1.25rem; /* 20px */
+}
+
+h1 {
+  font-size: 1.5rem; /* 24px */
+  margin-bottom: 1rem; /* 16px */
+}
+
+#chat-container {
+  border: 0.0625rem solid #ccc; /* 1px */
+  border-radius: 0.3125rem; /* 5px */
+  height: 25rem; /* 400px */
+  overflow-y: scroll;
+  padding: 0.625rem; /* 10px */
+  margin-bottom: 0.625rem; /* 10px */
+}
+
+#user-input {
+  width: 80%;
+  padding: 0.5rem; /* 8px */
+  font-size: 1rem;
+}
+
+#send-btn {
+  padding: 0.5rem 0.9375rem; /* 8px 15px */
+  font-size: 1rem;
+}
+
+.bot-message {
+  background-color: #f0f0f0;
+  padding: 0.5rem; /* 8px */
+  border-radius: 0.3125rem; /* 5px */
+  margin: 0.3125rem 0; /* 5px */
+  font-size: 1rem;
+}
+
+.user-message {
+  background-color: #e3f2fd;
+  padding: 0.5rem; /* 8px */
+  border-radius: 0.3125rem; /* 5px */
+  margin: 0.3125rem 0; /* 5px */
+  text-align: right;
+  font-size: 1rem;
+}
